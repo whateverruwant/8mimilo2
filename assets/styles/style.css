@@ -1,0 +1,2464 @@
+@import url(./fonts.css);
+body{
+    margin: 0 auto;
+    padding: 0;
+    background: url(../img/background.jpg);
+    overflow-x: hidden;
+}
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+
+}
+.container .info{
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    margin-top: 20px;
+}
+.container .colection-history{
+    display: flex;
+}
+.container .colection-history h2 a{
+    font-size: 14px;
+    color: #988f87;
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-right: 45px;
+    text-decoration: none;
+    margin-top: 0;
+}
+.container .colection-history h2{
+    margin-top: 8px;
+}
+
+.container .mimimumomu h2{
+    font-size: 24px;
+    color:#756b62;
+    font-family: "Cprmprantlnafant";
+    font-weight: 600;
+    margin-top: 7px;
+}
+
+.container .mimimumomu{
+    margin-top: 0;
+}
+
+.container .info .princ{
+    display: flex;
+    
+
+}
+
+.container .info .princ{
+    margin-top: 8px;
+}
+
+
+.container .info .princ h2 a{
+    font-size: 14px;
+    color: #988f87;
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-right: 45px;
+    text-decoration: none;
+    margin-top: 0;
+}
+.container .info .princ h2{
+    margin-top: 8px;
+}
+.clean{
+    margin-top: 20px;
+}
+.clean .background{
+    display: flex;
+    justify-content: space-between;
+}
+.clean .background .imgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 375px;
+    height: 825px;
+    z-index: -1;
+
+}
+.clean .background .img1{
+    background: url(../img/1.jpg);
+    width: 270px;
+    height: 270px;
+    z-index: -1;
+    position: relative;
+}
+.clean .background .img2{
+    background: url(../img/3.jpg);
+    width: 170px;
+    height: 170px;
+    align-self: flex-end;
+    z-index: -1;
+    position: relative;
+}
+
+.clean .background .imgs2{
+    margin-right: 90px;
+    height: 825px;
+    align-self: flex-end;
+    display: flex;
+}
+.clean .background .img3{
+    background: url(../img/2.jpg);
+    width: 570px;
+    height: 720px;
+    align-self: flex-end;
+    z-index: -1;
+    position: relative;
+}
+.clean .background .img4{
+    opacity: 1;
+    background: url(../img/4.png);
+    background-size: cover;
+    height: 140px;
+    width: 140px;
+    position: absolute;
+    margin-top: 730px;
+    margin-left: 500px;
+}
+.clean .background .title h2{
+    font-family: "Cormorant Infant";
+    font-weight: 300;
+    font-size: 100px;
+    z-index: 0;
+    position: absolute;
+    color: #756b62;
+    line-height: 103px;
+}
+.clean .background .title{
+    position: absolute;
+    z-index: 0;
+    margin-top: 250px;
+    margin-left: 10px;
+}
+.container-soap{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soap .container-soap .bold{
+    font-family: "Cormorant Infant";
+    font-weight: 500;
+    font-style: normal;
+    color: #756b62;
+}
+
+.soap .container-soap h2{
+    font-size: 55px;
+    color: #988f87;
+    font-family: "Cormorant Infant";
+    font-weight: 300;
+    font-style: italic;
+    line-height: 48px;
+    position: relative;
+    text-align: center;
+    margin-right: 120px;
+
+}
+
+.soap{
+    margin-top: 230px;
+}
+
+.soap .container-soap .women{
+    background: url(../img/Body.svg);
+    width: 178px;
+    height: 226px;
+    position: absolute;
+    margin-left: 850px;
+    
+}
+.collection{
+    margin-top: 150px;
+    width: 1900px;
+    overflow: hidden;
+}
+.collection .text{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.collection .text .line{
+    background-color: #988f87;
+    width: 50px;
+    height: 1px;
+}
+
+.collection .text a{
+    color: #988f87;
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-left: 20px;
+
+}
+.cards{
+    display: flex;
+}
+.cards .card{
+    width: 470px;
+    height: 615px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    
+}
+
+.cards .card img{
+    height: 520px;
+    width: 100%;
+}
+
+.cards .card .txt{
+    display: flex;
+}
+.cards .card .txt .text2 h2{
+    font-size: 19px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: #756b62;
+}
+.cards .card .txt .text2{
+    width: 800px;
+}
+.cards .card .txt .btn{
+    margin-left: 180px;
+    margin-top: 20px;
+}
+.cards .card .txt .btn button{
+    background: none;
+    height: 48px;
+    width: 48px;
+    font-size: 24px;
+    border: 1px solid #988f87;
+    border-radius: 30px;
+    transition: .5s;
+}
+.cards .card .txt .btn:hover button{
+    background-color: #988f87;
+    transition: .3s;
+}
+
+.cards .card:nth-child(1){
+    margin-left: 460px;
+    scale: 1;
+    transition: .9s;
+}
+
+.cards:hover .card:nth-child(1){
+    transform: translateX(-1600px);
+    scale: 0.6;
+    margin-left: 360px;
+    transition: .9s;
+}
+.cards .card:nth-child(2){
+    scale: 1;
+    transition: .9s;
+}
+.cards:hover .card:nth-child(2){
+    transform: translateX(-1580px);
+    scale: 0.6;
+    transition: .9s;
+}
+.cards .card:nth-child(3){
+    scale: 0.6;
+    transition: .9s;
+}
+.cards:hover .card:nth-child(3){
+    scale: 1;
+    transform: translateX(-950px);
+    transition: .9s;
+}
+.cards .card:nth-child(4){
+    scale: 0.6;
+    transition: .9s;
+}
+.container-history{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+}
+.history .hist .line-history{
+    display: flex;
+    align-items: center;
+}
+
+.history .hist .line-history .line{
+    background-color: #988f87;
+    width: 50px;
+    height: 1px;
+}
+.history .hist .line-history a{
+    margin-left: 20px;
+    color: #988f87;
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+.history{
+    margin-top: 200px;
+}
+
+.history .hist .min{
+    font-family: "Cormorant Infant";
+    font-style: italic;
+    color: #756b62;
+    font-size: 55px;
+    line-height: 60px;
+    margin-top: 25px;
+}
+
+.history .hist{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 790px;
+    width: 675px;
+}
+.history .hist .mimilo {
+    font-family: "Cormorant Infant";
+    font-style: italic;
+    color: #988f87;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 0;
+}
+
+.history .hist .avtor{
+    display: flex;
+    align-items: center;
+    
+}
+.history .hist .avtor .photo{
+    background: url(../img/девушка.jpeg) center no-repeat;
+    background-size: contain;
+    width: 78px;
+    height: 84px;
+}
+
+.history .hist .avtor .name{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.history .hist .avtor .name a{
+    color: #756b62;
+    font-size: 18px;
+    margin-bottom: 0;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+.history .hist .avtor .name h3{
+    margin-top: 5px;
+    color: #988f87;
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+.hist .oil{
+    background: url(../img/12.jpg);
+    height: 270px;
+    width: 270px;
+    display: flex;
+    position: absolute;
+    margin-top: 72%;
+    margin-left: 60%;
+}
+.container-history .use-oil{
+    margin-left: 20px;
+    display: flex;
+}
+.container-history .use-oil .use{
+    background: url(../img/11.jpg);
+    width: 470px;
+    height: 710px;
+    position: relative;
+}
+
+.container-history .use-oil .flower{
+    background: url(../img/Rose.svg);
+    width: 195px;
+    height: 424px;
+    position: absolute;
+    margin-left: 410px;
+    margin-top: 287px;
+
+}
+.sostav{
+    margin-top: 185px;
+    margin-bottom: 100px;
+}
+.sostav .container-sostav{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sostav .container-sostav .block1{
+    display: flex;
+    flex-direction: column;
+}
+
+.sostav .container-sostav .block1 .img1{
+    background: url(../img/principle1.svg);
+    width: 49px;
+    height: 60px;
+    margin-left: 43%;
+}
+
+.sostav .container-sostav .block1  h2{
+    color: #988f87;
+    font-size: 24px;
+    font-family: "Cormorant Infant";
+    font-style: italic;
+}
+
+.sostav .container-sostav .block1 .img2{
+    background: url(../img/principle2.svg);
+    width: 49px;
+    height: 51px;
+    margin-left: 43%;
+    margin-top: 10px;
+}
+.sostav .container-sostav .block1 .img3{
+    background: url(../img/principle3.svg);
+    width: 43px;
+    height: 53px;
+    margin-left: 43%;
+    margin-top: 10px;
+}
+.sianie .container-sianie{
+    width: 100%;
+    max-width: 1900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+.sianie{
+    margin-bottom: 65px;
+}
+.sianie .container-sianie .text h2{
+    font-size: 140px;
+    color: #bdb4ab;
+    font-family: "Cormorant Infant";
+    text-align: center;
+    font-weight: 600;
+    position: relative;
+    line-height: 145px;
+}
+.sianie .container-sianie .text{
+    display: flex;
+}
+
+.sianie .container-sianie .text .woman{
+    background: url(../img/13.jpg);
+    width: 630px;
+    height: 390px;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sianie .container-sianie .text .woman .shine{
+    font-size: 24px;
+    line-height: 25px;
+    color: #f1e9de;
+    font-family: "Montserrat";
+    font-weight: 300;
+
+}
+.sianie .container-sianie .text .woman .btn{
+    margin-top: 20px;
+}
+.sianie .container-sianie .text .woman .btn button{
+    background: none;
+    border: 1px solid #f1e9de;
+    color: #f1e9de;
+    width: 190px;
+    height: 55px;
+    border-radius: 30px;
+    font-family: "Montserrat";
+    font-weight: 300;
+    transition: .5s;
+}
+.sianie .container-sianie .text .woman .btn button:hover{
+    background-color: #f1e9de;
+    color: #988f87;
+    transition: .3s;
+}
+.instagram{
+    margin-bottom: 160px;
+}
+.instagram .container-instagramm{
+    width: 100%;
+    max-width: 1900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instagram .inst{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.instagram .inst .img-inst{
+    background: url(../img/inst.svg);
+    width: 27px;
+    height: 27px;
+}
+.instagram .inst .mi{
+    color: #756b62;
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+.instagram .inst h2{
+    font-family: "Montserrat";
+    font-weight: 300;
+    color: #988f87;
+    margin-left: 5px;
+}
+.container-instagramm  .photo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between
+}
+.container-instagramm  .photo .one{
+    background: url(../img/14.jpg);
+    width: 360px;
+    height: 350px;
+}
+.container-instagramm  .photo .two{
+    background: url(../img/15.jpg);
+    width: 360px;
+    height: 350px;
+}
+.container-instagramm  .photo .three{
+    background: url(../img/16.jpg);
+    width: 360px;
+    height: 350px;
+}
+.container-instagramm .photo .four{
+    background: url(../img/17.jpg);
+    width: 360px;
+    height: 350px;
+}
+.container-instagramm  .photo .five{
+    background: url(../img/18.jpg);
+    width: 360px;
+    height: 350px;
+}
+
+.registration{
+    background: url(../img/19.jpg);
+}
+
+.container-registration{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+   
+}
+.in{
+    padding-top: 50px;
+}
+
+.registration .container-registration .text{
+    padding-top: 5px;
+}
+.registration .container-registration  .text h2{
+    font-size: 45px;
+    font-family:  "Cormorant Infant";
+    font-style: italic;
+    color: #756b62;
+    line-height: 50px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.registration .container-registration  .text p{
+    font-size: 24px;
+    font-family:  "Cormorant Infant";
+    font-style: italic;
+    color: #988f87;
+}
+
+
+.registration .container-registration  .in{
+    display: flex;
+    flex-direction: column;
+}
+
+.registration .container-registration .in .knopka{
+    display: flex;
+    
+}
+.registration .container-registration  .in .knopka h2{
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #988f87;
+    margin-right: 15px;
+}
+.registration .in .name{
+    background: none;
+    width: 490px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid #5e564f;
+    outline:none;
+}
+
+.registration .in input::-webkit-input-placeholder{
+    color: #988f87;
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    
+}
+.registration .soglasie{
+    display: flex;
+   margin-left: 10px;
+}
+
+.registration .soglasie h3{
+    font-size: 15px;
+    color: #988f87;
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.registration .butt{
+    background: none;
+    border: 1px solid #756b62;
+    color: #756b62;
+    width: 170px;
+    height: 45px;
+    border-radius: 30px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    transition: .5s;
+    margin-bottom: 160px;
+    margin-top: 50px;
+    
+}
+.registration .but:hover{
+    background-color: #988f87;
+    color: #e6e5e5;
+    border: none;
+    transition: .3s;
+}
+.registration .block1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.registration .block2{
+    display: flex;
+    justify-content: center;
+
+}
+
+.contacts{
+    background: url(../img/20.jpg);
+}
+
+.contacts .cell{
+    display: flex;
+    padding-top: 125px;
+    justify-content: space-between;
+}
+
+.contacts .block1{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts .block1 .mimilo1{
+    font-size: 28px;
+    color: #f1e9de;
+    font-family: "Cprmprantlnafant";
+    margin-bottom: 0;
+}
+.contacts .block1 .nat{
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: #9f968e;
+    margin-bottom: 45px;
+}
+
+.contacts .block1 .date{
+    font-size: 15px;
+    color: #9f968e;
+    font-family: "Montserrat";
+}
+
+.contacts .cell .block2 .adress{
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: #9f968e;
+
+}
+.contacts .cell .block2{
+    margin-top: 60px;
+}
+.contacts .cell .block3{
+    display: flex;
+    align-items: center;
+}
+.contacts .cell .block3 img{
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.knopka .switch{
+    margin-left: 15px;
+}
+.knopka .label{
+    color: #988f87;
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin-left: 8px;
+}
+
+#but1:checked ~ #label1{
+    color: #5e564f;
+
+
+}
+
+#but2:checked ~ #label2{
+    color: #5e564f;
+
+
+}
+
+#but3:checked ~ #label3{
+    color: #5e564f;
+
+
+}
+
+#but4:checked ~ #label4{
+    color: #5e564f;
+
+
+}
+.soglasie{
+    margin-top: 20px;
+}
+.soglasie .label2{
+    color: #988f87;
+    font-size: 15px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+@media (max-width: 1024px) {
+     .container {
+    width: 700px;
+    }
+    .clean .container {
+        width: 1024px;
+        height: 900px;
+        display: flex;
+    }
+    .container .info .princ h2 a{
+        font-size: 14px;
+        color: #988f87;
+        font-family: "Montserrat";
+        font-weight: 500;
+        margin-right: 5px;
+        text-decoration: none;
+        margin-top: 0;
+        margin-left: 40px;        
+    }
+    .clean .background .img1{
+        width: 270px;
+        height: 270px;
+        z-index: -1;
+        position: relative;
+        margin-left: 40px;
+    }
+    .clean .background .img3{
+        width: 470px;
+        height: 620px;
+        align-self: flex-end;
+        z-index: -1;
+        position: relative;
+        margin-left: 60px;
+        margin-bottom: 190px;
+    }
+    .clean .background .title h2{
+        font-family: "Cormorant Infant";
+        font-weight: 300;
+        font-size: 80px;
+        z-index: 0;
+        position: absolute;
+        color: #756b62;
+        line-height: 103px;
+        margin-left: 30px;
+    }
+    .clean .background .img2{
+        width: 160px;
+        height: 160px;
+        align-self: flex-end;
+        z-index: -1;
+        position: relative;
+        margin-right: 40px;
+        margin-bottom: 120px;
+    }
+    .clean .background .img4{
+        opacity: 1;
+        background-size: cover;
+        height: 140px;
+        width: 140px;
+        position: absolute;
+        margin-top: 540px;
+        margin-left: 450px;
+    }
+    .soap{
+        margin-top: 30px;
+    }
+    .soap .container-soap h2 {
+        font-size: 50px;
+        color: rgb(97, 82, 72);
+        font-family: "Corm";
+    }
+    .soap .mimi {
+        font-weight: 650;
+        color: rgb(97, 82, 72);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+    }
+    .soap .container-soap .women{
+        height: 190px;
+        width: 150px;
+        right: 50px;
+    }
+    
+    .collection .text a{
+        color: #988f87;
+        font-size: 19px;
+        font-family: "Montserrat";
+        font-weight: 500;
+    }
+    .collection .text .line{
+        background-color: #988f87;
+        width: 50px;
+        height: 0.5px;
+        margin-left: -400px;
+    }
+    .cards{
+        display: flex;
+        margin-left: -330px;
+    }
+    .collection .card img {
+        height: 450px;
+        width: 450px;
+        position: relative;
+        bottom: 330px;
+        right: 100px;
+    }
+    .cards .card .txt .btn{
+        margin-right: 120px;
+        margin-top: 20px;
+    }
+    .collection .cards .half {
+        position: relative;
+        right: 150px;
+        height: 380px;
+        width: 380px;
+        bottom: 330px;
+    }
+    .collection .container {
+        margin: 0 auto;
+        width: 1024px;
+        height: 400px;
+    }
+    .collection .card {
+        display: flex;
+      gap: 2px;
+    }
+    .cards .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 25px;
+        position: relative;
+        right: 50px;
+    }
+    .cards .card .txt{
+        display: flex;
+        margin-top: -320px;
+        margin-left: -90px;
+    }
+    .history{
+        margin-top: -200px;
+       
+    }
+    .history .hist .avtor .photo{
+        background-size: contain;
+        width: 78px;
+        height: 84px;
+        margin-left: 30px;
+    }
+    
+    .history .hist .avtor .name{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .history .hist .avtor .name a{
+        color: #756b62;
+        font-size: 15px;
+        margin-bottom: 0;
+        font-family: "Montserrat";
+        font-weight: 600;
+    }
+    .history .hist .avtor .name h3{
+        margin-top: 5px;
+        color: #988f87;
+        font-size: 18px;
+        font-family: "Montserrat";
+        font-weight: 400;
+    }
+    .history .hist .line-history{
+        display: flex;
+        align-items: center;
+    }
+    
+    .history .hist .line-history .line{
+        background-color: #988f87;
+        width: 45px;
+        height: 1,3px;
+        margin-bottom: 16px;
+        margin-left: 30px;
+    }
+    .container-history .use-oil .use {
+        border-radius: 0%;
+        position: relative;
+        top: 100px;
+         width: 370px;
+         height: 610px;
+         position: relative;
+         left: -5%;
+        }
+        
+    
+    .hist .oil{    
+        height: 270px;
+        width: 270px;
+        display: flex;
+        position: absolute;
+        margin-top: 80%;
+        margin-left: 52%;
+        
+    }
+    .container-history .use-oil .flower{
+        width: 195px;
+        height: 424px;
+        position: absolute;
+        margin-left: 280px;
+        margin-top: 300px;
+        
+    }
+    .history  .container-history  {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        
+    }
+    .history .hist .min{
+        font-family: "Cormorant Infant";
+        font-style: italic;
+        color: #756b62;
+        font-size: 45px;
+        line-height: 40px;
+        margin-left: 30px;
+        
+    }
+    .history .hist .mimilo {
+        font-family: "Cormorant Infant";
+        font-style: italic;
+        color: #988f87;
+        font-size: 24px;
+        line-height: 30px;
+       margin-right: -105%;
+       margin-left: 30px;
+    }
+    .history  .name a {
+        text-transform: uppercase;
+    }
+    .history  .line {
+        display: flex;
+        justify-content: start;
+        height: 1.5px;
+        width: 45px;
+        font-size: 2px;
+        background-color: rgb(97, 82, 72);
+        margin-top: 15px;
+    }
+    .sostav .container-sostav .block1 h2 {
+        font-family: "Corm";
+        font-size: 18px;
+    }
+    .sostav .block1 .img1 {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: end;
+        position: relative;
+        
+    }
+    .sostav{
+        margin-top: 80px;
+    }
+    .sostav .container-sostav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 250px;
+        width: 1000px;
+        gap: 40px;
+    }
+    .sostav .container-sostav .block1 .img1{
+        width: 47px;
+        height: 60px;
+        margin-left: 43%;
+    }
+    .sostav .container-sostav .block1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap:15px;
+        width: 250px;
+        color: rgb(97, 82, 72);
+        text-align: justify;
+        margin-left: 30px;
+    }
+    .sianie .container-sianie .text h2{
+        font-size: 85px;
+        color: #bdb4ab;
+        font-family: "Cormorant Infant";
+        text-align: center;
+        font-weight: 400;
+        position: relative;
+        line-height: 115px;
+    }
+    .sianie .container-sianie .text .woman{
+        width: 530px;
+        height: 350px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 130px;
+        margin-left: 200px;
+        
+    }
+    .shine {
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        font-weight: 350;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .sianie .woman .btn button{
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        border: 1.5px solid white;
+        padding: 8px;
+        width: 105px;
+        height: 40px;
+        border-radius: 20px;
+        margin-top: 10px;
+    }
+    .instagram {
+        margin-top: 25px;
+        height: 350px;
+    }
+    .instagram .container-instagramm .inst h2 {
+        font-family: "Montserrat";
+        color: rgba(97, 82, 72, 0.815);
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+    .instagram .mi {
+        text-decoration: underline;
+        font-size: 20px;
+    }
+    .container-instagramm  .photo{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-left: -100px;
+    }
+    .container-instagramm  .photo .one{
+        width: 260px;
+        height: 330px;
+        
+    }
+    .container-instagramm  .photo .two{
+        
+        width: 260px;
+        height: 330px;
+    }
+    .container-instagramm  .photo .three{
+        
+        width: 260px;
+        height: 330px;
+    }
+    .container-instagramm .photo .four{
+        
+        width: 260px;
+        height: 330px;
+    }
+    .container-instagramm  .photo .five{
+        
+        width: 260px;
+        height: 330px;
+    }
+    .instagram .container-instagramm{
+        margin: 10px;
+        width: 1024px;
+        height: 120px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 45px;
+    }
+    .registration .container-registration  .text h2{
+        font-size: 35px;
+        font-family:  "Cormorant Infant";
+        font-style: italic;
+        color: #756b62;
+        line-height: 40px;
+        margin-left: 80px;
+    }
+    .registration .container-registration  .text p{
+        font-size: 20px;
+        font-family:  "Cormorant Infant";
+        font-style: italic;
+        color: #988f87;
+        margin-left: 80px;
+        text-align: justify;
+        
+    }
+    .registration .knopka {
+        display: flex;
+        gap: 10px;
+        color: rgba(97, 82, 72, 0.979);
+        margin-left: 200px;
+    }
+    .registration .soglasie label{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .registration .soglasie{
+        margin-left: 210px;
+    }
+    
+    .registration .in .name{
+        font-size: 15px;
+        background-color: rgba(245, 245, 220, 0);
+        color: rgba(97, 82, 72, 0.979);
+        border-bottom: solid 2px;
+        margin-left: 200px;
+    }
+    .registration  button {
+        font-family: "Montserrat";
+        color: rgba(97, 82, 72, 0.979);
+        font-size: 15px;
+        border: 1.5px solid rgba(97, 82, 72, 0.979);
+        padding: 11px;
+        width: 110px;
+        height: 90px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        
+    }
+    .contacts .mimilo h2 {
+        font-family: 'Times New Roman', Times, serif;
+        color: beige;
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 40px;
+    }
+    .contacts .nat h2 {
+        font-family: "Montserrat";
+        color: rgba(245, 245, 220, 0.589);
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 20px;
+    }
+    .contacts .date h2 {
+        font-family: "Montserrat";
+        color: rgba(245, 245, 220, 0.589);
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 20px;
+    }
+    .contacts .cell .block2{
+        margin-top: 60px;
+        margin-left: 50px;
+    }
+    .contacts .block1{
+        display: flex;
+        flex-direction: column;
+        margin-left: -70px;
+    }
+    .contacts .cell .block3{
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+   width: 1024px;
+   }
+   .container .colection-history h2 a{
+    font-size: 14px;
+    color: #988f87;
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-left: 40px;
+    text-decoration: none;
+    margin-top: 0;
+}
+.container .colection-history h2{
+    margin-top: 8px;
+}
+   .clean .container {
+       width: 768px;
+       height: 1024px;
+       display: flex;
+   }
+   .container .info .princ{
+    display: flex;
+    
+
+}
+
+.container .info .princ{
+    margin-top: 8px;
+}
+
+
+.container .info .princ h2 a{
+    font-size: 14px;
+    color: #988f87;
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-right: 50px;
+    text-decoration: none;
+    margin-top: 0;
+}
+.container .info .princ h2{
+    margin-top: 8px;
+}
+   .clean .background .img1{
+       width: 230px;
+       height: 230px;
+       z-index: -1;
+       position: relative;
+       margin-left: 40px;
+   }
+   .clean .background .img3{
+       width: 400px;
+       height: 590px;
+       align-self: flex-end;
+       z-index: -1;
+       position: relative;
+       margin-left: -70px;
+       margin-bottom: 190px;
+   }
+   .clean .background .title h2{
+       font-family: "Cormorant Infant";
+       font-weight: 300;
+       font-size: 60px;
+       z-index: 0;
+       position: absolute;
+       color: #756b62;
+       line-height: 103px;
+       margin-left: 30px;
+   }
+   .clean .background .img2{
+       width: 160px;
+       height: 160px;
+       align-self: flex-end;
+       z-index: -1;
+       position: relative;
+       margin-right: 110px;
+       margin-bottom: 120px;
+   }
+   .clean .background .img4{
+       opacity: 1;
+       background-size: cover;
+       height: 120px;
+       width: 120px;
+       position: absolute;
+       margin-top: 540px;
+       margin-left: 250px;
+   }
+   .soap{
+       margin-top: 30px;
+   }
+   .soap .container-soap h2 {
+       font-size: 35px;
+       color: rgb(97, 82, 72);
+       font-family: "Corm";
+   }
+   .soap .mimi {
+       font-weight: 650;
+       color: rgb(97, 82, 72);
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 25px;
+   }
+   .soap .container-soap .women{
+       height: 190px;
+       width: 150px;
+       right: 50px;
+   }
+   
+   .collection .text a{
+       color: #988f87;
+       font-size: 15px;
+       font-family: "Montserrat";
+       font-weight: 500;
+   }
+   .collection .text .line{
+       background-color: #988f87;
+       width: 50px;
+       height: 0.5px;
+       margin-left: -520px;
+   }
+   .cards{
+       display: flex;
+       margin-left: -330px;
+   }
+   .collection .card img {
+       height: 300px;
+       width: 300px;
+       position: relative;
+       bottom: 330px;
+       right: 100px;
+   }
+   .cards .card .txt .btn{
+       margin-right: 350px;
+       margin-top: 20px;
+   }
+   .collection .cards .half {
+       position: relative;
+       right: 150px;
+       height: 300px;
+       width: 300px;
+       bottom: 330px;
+   }
+   .collection .container {
+       margin: 0 auto;
+       width: 768px;
+       height: 400px;
+   }
+   .collection .card {
+       display: flex;
+       gap: 2px;
+   }
+   .cards .container {
+       display: flex;
+       justify-content: space-between;
+       align-items: baseline;
+       gap: 25px;
+       position: relative;
+       right: 50px;
+   }
+   .cards .card .txt{
+       display: flex;
+       margin-top: -320px;
+       margin-left: -90px;
+   }
+   .history{
+       margin-top: -400px;
+      
+   }
+   .history .hist .avtor .photo{
+       background-size: contain;
+       width: 70px;
+       height: 84px;
+       margin-left: 30px;
+   }
+   
+   .history .hist .avtor .name{
+       margin-left: 20px;
+       margin-top: 20px;
+   }
+   .history .hist .avtor .name a{
+       color: #756b62;
+       font-size: 12px;
+       margin-bottom: 0;
+       font-family: "Montserrat";
+       font-weight: 600;
+   }
+   .history .hist .avtor .name h3{
+       margin-top: 5px;
+       color: #988f87;
+       font-size: 15px;
+       font-family: "Montserrat";
+       font-weight: 400;
+   }
+   .history .hist .line-history{
+       display: flex;
+       align-items: center;
+   }
+   
+   .history .hist .line-history .line{
+       background-color: #988f87;
+       width: 45px;
+       height: 1,3px;
+       margin-bottom: 16px;
+       margin-left: 30px;
+   }
+   .container-history .use-oil .use {
+       border-radius: 0%;
+       position: relative;
+       top: 100px;
+        width: 250px;
+        height: 390px;
+        position: relative;
+        left: -10%;
+        object-fit: cover;
+        background: url(../img/11.jpg) no-repeat center center;
+        background-size: cover;
+       }
+       
+   
+   .hist .oil{    
+       height: 180px;
+       width: 180px;
+       display: flex;
+       position: absolute;
+       margin-top: 80%;
+       margin-left: 53%;
+       background: url(../img/12.jpg) no-repeat center center;
+       background-size: cover;
+       
+   }
+   .container-history .use-oil .flower{
+       width: 105px;
+       height: 224px;
+       position: absolute;
+       margin-left: 180px;
+       margin-top: 260px;
+       background: url(../img/Rose.svg) no-repeat center center;
+       background-size: cover;
+       
+   }
+   .history  .container-history  {
+       display: flex;
+       justify-content: start;
+       align-items: start;
+       
+   }
+   .history .hist .min{
+       font-family: "Cormorant Infant";
+       font-style: italic;
+       color: #756b62;
+       font-size: 29px;
+       line-height: 40px;
+       margin-left: 30px;
+       
+   }
+   .history .hist .mimilo {
+       font-family: "Cormorant Infant";
+       font-style: italic;
+       color: #988f87;
+       font-size: 18px;
+       line-height: 25px;
+      margin-right: -105%;
+      margin-left: 20px;
+   }
+   .history  .name a {
+       text-transform: uppercase;
+   }
+   .history  .line {
+       display: flex;
+       justify-content: start;
+       height: 1.5px;
+       width: 45px;
+       font-size: 2px;
+       background-color: rgb(97, 82, 72);
+       margin-top: 15px;
+   }
+   .sostav .container-sostav .block1 h2 {
+       font-family: "Corm";
+       font-size: 18px;
+   }
+   .sostav .block1 .img1 {
+       width: 30px;
+       height: 30px;
+       display: flex;
+       justify-content: end;
+       position: relative;
+       
+   }
+   .sostav{
+       margin-top: -80px;
+   }
+   .sostav .container-sostav {
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       grid-template-rows: 250px;
+       width: 700px;
+       gap: 10px;
+   }
+   .sostav .container-sostav .block1 .img1{
+       width: 40px;
+       height: 50px;
+       margin-left: 33%;
+       background: url(../img/principle1.svg) no-repeat center center;
+       background-size: cover;
+   }
+   .sostav .container-sostav .block1 .img2{
+    background: url(../img/principle2.svg) no-repeat center center;
+    background-size: cover;
+    width: 45px;
+    height: 50px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.sostav .container-sostav .block1 .img3{
+    background: url(../img/principle3.svg) no-repeat center center;
+    background-size: cover;
+    width: 40px;
+    height: 50px;
+    margin-left: 23%;
+    margin-top: 10px;
+}
+   .sostav .container-sostav .block1 {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       gap:10px;
+       width: 250px;
+       color: rgb(97, 82, 72);
+       text-align: justify;
+       margin-left: 0px;
+   }
+   .sostav .container-sostav .block1 h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+    width: 350px;
+    color: rgb(97, 82, 72);
+    text-align: justify;
+    margin-left: -15px;
+}
+   .sianie .container-sianie .text h2{
+       font-size: 55px;
+       color: #bdb4ab;
+       font-family: "Cormorant Infant";
+       text-align: center;
+       font-weight: 400;
+       position: relative;
+       line-height: 115px;
+   }
+   .sianie .container-sianie .text .woman{
+       width: 430px;
+       height: 250px;
+       position: absolute;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin-top: 160px;
+       margin-left: 110px;
+       background: url(../img/13.jpg) no-repeat center center;
+       background-size: cover;
+       
+   }
+   .shine {
+       font-family: "Montserrat";
+       color: rgb(255, 255, 255);
+       font-weight: 350;
+       font-size: 25px;
+       display: flex;
+       justify-content: center;
+       text-align: center;
+   }
+   .sianie .container-sianie .text .woman .shine{
+    font-size: 20px;
+    line-height: 25px;
+    color: #f1e9de;
+    font-family: "Montserrat";
+    font-weight: 300;
+
+}
+   .sianie .woman .btn button{
+       font-family: "Montserrat";
+       color: rgb(255, 255, 255);
+       font-size: 15px;
+       border: 1.5px solid white;
+       padding: 6px;
+       width: 105px;
+       height: 40px;
+       border-radius: 20px;
+       margin-top: 10px;
+   }
+   .instagram {
+       margin-top: 25px;
+       height: 350px;
+   }
+   .instagram .container-instagramm .inst h2 {
+       font-family: "Montserrat";
+       color: rgba(97, 82, 72, 0.815);
+       font-weight: 400;
+       text-transform: uppercase;
+       font-size: 15px;
+       
+   }
+   .instagram .mi {
+       text-decoration: underline;
+       font-size: 20px;
+       
+   }
+   .container-instagramm  .photo{
+       display: flex;
+       width: 100%;
+       justify-content: space-between;
+       
+   }
+   .container-instagramm  .photo .one{
+       width: 180px;
+       height: 230px;
+       background: url(../img/14.jpg) no-repeat center center;
+       background-size: cover;
+   }
+   .container-instagramm  .photo .two{
+    width: 180px;
+    height: 230px;
+    background: url(../img/15.jpg) no-repeat center center;
+    background-size: cover;
+   }
+   .container-instagramm  .photo .three{
+       
+    width: 180px;
+    height: 230px;
+    background: url(../img/16.jpg) no-repeat center center;
+    background-size: cover;
+   }
+   .container-instagramm .photo .four{
+       
+    width: 180px;
+    height: 230px;
+    background: url(../img/17.jpg) no-repeat center center;
+    background-size: cover;
+   }
+   .container-instagramm  .photo .five{
+       
+    width: 180px;
+    height: 200px;
+    background: url(../img/18.jpg) no-repeat center center;
+    background-size: cover;
+   }
+   .instagram .container-instagramm{
+       margin: 10px;
+       width: 1024px;
+       height: 120px;
+       display: flex;
+       justify-content: space-between;
+       margin-left: 45px;
+   }
+   .instagram .inst .img-inst{
+    width: 27px;
+    height: 27px;
+}
+   .registration .container-registration  .text h2{
+       font-size: 35px;
+       font-family:  "Cormorant Infant";
+       font-style: italic;
+       color: #756b62;
+       line-height: 40px;
+       margin-left: 20px;
+   }
+   .registration .container-registration  .text p{
+       font-size: 20px;
+       font-family:  "Cormorant Infant";
+       font-style: italic;
+       color: #988f87;
+       margin-left: 20px;
+    
+       
+   }
+   .registration .knopka {
+       display: flex;
+       gap: 5px;
+       color: rgba(97, 82, 72, 0.979);
+       margin-left: 80px;
+   }
+   .registration .soglasie label{
+       font-size: 15px;
+       margin-left: 10px;
+   }
+   .registration .soglasie{
+       margin-left: 90px;
+   }
+   
+   .registration .in .name{
+       font-size: 15px;
+       background-color: rgba(245, 245, 220, 0);
+       color: rgba(97, 82, 72, 0.979);
+       border-bottom: solid 2px;
+       margin-left: 80px;
+   }
+   .registration  button {
+       font-family: "Montserrat";
+       color: rgba(97, 82, 72, 0.979);
+       font-size: 15px;
+       border: 1.5px solid rgba(97, 82, 72, 0.979);
+       padding: 11px;
+       width: 110px;
+       height: 90px;
+       border-radius: 20px;
+       display: flex;
+       justify-content: center;
+       position: relative;
+       
+   }
+   .contacts .block1 .mimilo1{
+    font-size: 20px;
+    color: #f1e9de;
+    font-family: "Cprmprantlnafant";
+    margin-bottom: 0;
+    margin-left: 100px;
+}
+.contacts .block1 .nat{
+    font-size: 13px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: #9f968e;
+    margin-bottom: 45px;
+    margin-left: 100px;
+}
+
+.contacts .block1 .date{
+    font-size: 15px;
+    color: #9f968e;
+    font-family: "Montserrat";
+    margin-left: 100px;
+}
+.contacts .cell .block2 .adress{
+    font-size: 15px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: #9f968e;
+    margin-left: -250px;
+   
+}
+.contacts .cell .block2{
+    margin-top: 40px;
+}
+.contacts .cell .block3{
+    display: flex;
+    align-items: center;
+    
+}
+.contacts .cell .block3 img{
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+.contacts{
+    background: url(../img/20.jpg)no-repeat center center;
+    background-size: cover;
+    width: 1000px;
+    height: 310px;
+}
+}
+@media (max-width: 480px) {
+    .container {
+   width: 1024px;
+   }
+   .container .colection-history{
+    display: flex;
+    flex-direction: column;
+}
+.container .colection-history h2 a{
+    font-size: 14px;
+    color: #988f87;
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-right: 45px;
+    text-decoration: none;
+    margin-top: 0;
+}
+.container .colection-history h2{
+    margin-top: 8px;
+}
+
+.container .mimimumomu h2{
+    font-size: 24px;
+    color:#756b62;
+    font-family: "Cprmprantlnafant";
+    font-weight: 600;
+    margin-top: 7px;
+    margin-left: -150px;
+}
+
+.container .mimimumomu{
+    margin-top: 0;
+}
+
+.container .info .princ{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+}
+
+.container .info .princ h2 a{
+    font-size: 14px;
+    color: #988f87;
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-right: 45px;
+    text-decoration: none;
+    margin-top: 0;
+    margin-left: 250px;
+}
+.container .info .princ h2{
+    margin-top: 8px;
+}
+   .clean .background .img1{
+       width: 130px;
+       height: 130px;
+       z-index: -1;
+       position: relative;
+       margin-left: 20px;
+       background: url(../img/1.jpg) no-repeat center center;
+       background-size: cover;
+   }
+   .clean .background .img3{
+       width: 200px;
+       height: 390px;
+       align-self: flex-end;
+       z-index: -1;
+       position: relative;
+       margin-left: -170px;
+       margin-bottom: 420px;
+       background: url(../img/2.jpg) no-repeat center center;
+       background-size: cover;
+   }
+   .clean .background .title h2{
+       font-family: "Cormorant Infant";
+       font-weight: 400;
+       font-size: 40px;
+       z-index: 0;
+       position: absolute;
+       color: #756b62;
+       line-height: 63px;
+       margin-left: 10px;
+       margin-top: -60px;
+   }
+   .clean .background .img2{
+       width: 100px;
+       height: 100px;
+       align-self: flex-end;
+       z-index: -1;
+       position: relative;
+       margin-right: 240px;
+       margin-bottom: 345px;
+       background: url(../img/3.jpg) no-repeat center center;
+       background-size: cover;
+   }
+   .clean .background .img4{
+       opacity: 1;
+       background-size: cover;
+       height: 90px;
+       width: 90px;
+       position: absolute;
+       margin-top: 540px;
+       margin-left: 350px;
+       background: url(../img/4.jpg) no-repeat center center;
+       background-size: cover;
+   }
+   .soap{
+       margin-top: -280px;
+   }
+   .soap .container-soap h2 {
+       font-size: 20px;
+       color: rgb(97, 82, 72);
+       font-family: "Corm";
+    
+   }
+   .soap .mimi {
+       font-weight: 650;
+       color: rgb(97, 82, 72);
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 25px;
+   }
+   .soap .container-soap .women{
+       height: 140px;
+       width: 100px;
+       right: 50px;
+       background: url(../img/Body.svg) no-repeat center center;
+       background-size: cover;
+   }
+   
+   .collection .text a{
+       color: #988f87;
+       font-size: 12px;
+       font-family: "Montserrat";
+       font-weight: 500;
+   }
+   .collection .text .line{
+       background-color: #988f87;
+       width: 30px;
+       height: 0.5px;
+       margin-left: -550px;
+   }
+   .cards{
+       display: flex;
+       margin-left: -330px;
+       
+   }
+   .collection .card img {
+       height: 200px;
+       width: 200px;
+       position: relative;
+       bottom: 330px;
+       right: 100px;
+       background-size: cover;
+   }
+   .cards .card .txt .btn{
+       margin-right: 550px;
+       margin-top: 20px;
+   }
+   .collection .cards .half {
+       position: relative;
+       right: 150px;
+       height: 200px;
+       width: 200px;
+       bottom: 330px;
+   }
+   .collection .container {
+       margin: 0 auto;
+       width: 768px;
+       height: 400px;
+   }
+   .collection .card {
+       display: flex;
+       gap: 2px;
+   }
+   .cards .container {
+       display: flex;
+       justify-content: space-between;
+       align-items: baseline;
+       gap: 25px;
+       position: relative;
+       right: 50px;
+   }
+   .cards .card .txt{
+       display: flex;
+       margin-top: -320px;
+       margin-left: -90px;
+   }
+   .history{
+       margin-top: -550px;
+      
+   }
+   .history .hist .avtor .photo{
+       background-size: contain;
+       width: 50px;
+       height: 54px;
+       margin-left: 10px;
+       background: url(../img/девушка.jpeg) no-repeat center center;
+       background-size: cover;
+   }
+   
+   .history .hist .avtor .name{
+       margin-left: 20px;
+       margin-top: 20px;
+   }
+   .history .hist .avtor .name a{
+       color: #756b62;
+       font-size: 13px;
+       margin-bottom: 0;
+       font-family: "Montserrat";
+       font-weight: 600;
+   }
+   .history .hist .avtor .name h3{
+       margin-top: 5px;
+       color: #988f87;
+       font-size: 12px;
+       font-family: "Montserrat";
+       font-weight: 400;
+   }
+   .history .hist .line-history{
+       display: flex;
+       align-items: center;
+   }
+   .history .hist .line-history a{
+    margin-left: 10px;
+    color: #988f87;
+    font-size: 12px;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+   .history .hist .line-history .line{
+       background-color: #988f87;
+       width: 35px;
+       height: 1px;
+       margin-bottom: 16px;
+       margin-left: 30px;
+   }
+   .container-history .use-oil .use {
+       border-radius: 0%;
+       position: relative;
+       top: 300px;
+        width: 150px;
+        height: 290px;
+        position: relative;
+        left: -180%;
+        object-fit: cover;
+        background: url(../img/11.jpg) no-repeat center center;
+        background-size: cover;
+       }
+       
+   
+   .hist .oil{    
+       height: 100px;
+       width: 100px;
+       display: flex;
+       position: absolute;
+       margin-top: 200%;
+       margin-left: 153%;
+       background: url(../img/12.jpg) no-repeat center center;
+       background-size: cover;
+       
+   }
+   .container-history .use-oil .flower{
+       width: 100px;
+       height: 134px;
+       position: absolute;
+       margin-left: -170px;
+       margin-top: 450px;
+       background: url(../img/Rose.svg) no-repeat center center;
+       background-size: cover;
+       
+   }
+   .history  .container-history  {
+       display: flex;
+       justify-content: start;
+       align-items: start;
+       
+   }
+   .history .hist .min{
+       font-family: "Cormorant Infant";
+       font-style: italic;
+       color: #756b62;
+       font-size: 30px;
+       line-height: 30px;
+       margin-left: 20px;
+       width:370px;
+       
+   }
+   .history .hist .mimilo {
+       font-family: "Cormorant Infant";
+       font-style: italic;
+       color: #988f87;
+       font-size: 16px;
+       line-height: 20px;
+      margin-right: -3%;
+      margin-left: 10px;
+      width: 500px;
+   }
+   .history  .name a {
+       text-transform: uppercase;
+   }
+   .history  .line {
+       display: flex;
+       justify-content: start;
+       height: 1.5px;
+       width: 45px;
+       font-size: 2px;
+       background-color: rgb(97, 82, 72);
+       margin-top: 15px;
+   }
+   .sostav .container-sostav .block1 h2 {
+       font-family: "Corm";
+       font-size: 20px;
+   }
+   .sostav .block1 .img1 {
+       width: 30px;
+       height: 30px;
+       display: flex;
+       justify-content: end;
+       position: relative;
+       
+   }
+   .sostav{
+       margin-top: -180px;
+   }
+   .sostav .container-sostav {
+       display: flex;
+       
+       width: 500px;
+       gap: 5px;
+       flex-direction: column;
+       margin-left: 100px;
+   }
+   .sostav .container-sostav .block1 .img1{
+       width: 30px;
+       height: 40px;
+       margin-left: 45%;
+       background: url(../img/principle1.svg) no-repeat center center;
+       background-size: cover;
+   }
+   .sostav .container-sostav .block1 .img2{
+    background: url(../img/principle2.svg) no-repeat center center;
+    background-size: cover;
+    width: 25px;
+    height: 30px;
+    margin-left: 45%;
+    margin-top: 10px;
+}
+.sostav .container-sostav .block1 .img3{
+    background: url(../img/principle3.svg) no-repeat center center;
+    background-size: cover;
+    width: 20px;
+    height: 30px;
+    margin-left: 45%;
+    margin-top: 10px;
+}
+   .sostav .container-sostav .block1 {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       gap:10px;
+       width: 250px;
+       color: rgb(97, 82, 72);
+       text-align: justify;
+       margin-left: 20px;
+   }
+   .sostav .container-sostav .block1 h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+    width: 350px;
+    color: rgb(97, 82, 72);
+    text-align: justify;
+    margin-left: -15px;
+    
+}
+   .sianie .container-sianie .text h2{
+       font-size: 45px;
+       color: #bdb4ab;
+       font-family: "Cormorant Infant";
+       text-align: center;
+       font-weight: 400;
+       position: relative;
+       line-height: 45px;
+   }
+   .sianie .container-sianie .text .woman{
+       width: 280px;
+       height: 180px;
+       position: absolute;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin-top: 60px;
+       margin-left: 100px;
+       background: url(../img/13.jpg) no-repeat center center;
+       background-size: cover;
+       
+   }
+   .shine {
+       font-family: "Montserrat";
+       color: rgb(255, 255, 255);
+       font-weight: 350;
+       font-size: 25px;
+       display: flex;
+       justify-content: center;
+       text-align: center;
+   }
+   
+   .sianie .container-sianie .text .woman .shine{
+    font-size: 14px;
+    line-height: 15px;
+    color: #f1e9de;
+    font-family: "Montserrat";
+    font-weight: 300;
+
+}
+.sianie .container-sianie .text .woman .btn{
+    margin-top: 10px;
+}
+   .sianie .woman .btn button{
+       font-family: "Montserrat";
+       color: rgb(255, 255, 255);
+       font-size: 10px;
+       border: 0.2px solid white;
+       padding: 6px;
+       width: 105px;
+       height: 40px;
+       border-radius: 0px;
+       margin-top: -5px;
+   }
+   .instagram {
+       margin-top: 25px;
+       height: 350px;
+   }
+   .instagram .container-instagramm .inst h2 {
+       font-family: "Montserrat";
+       color: rgba(97, 82, 72, 0.815);
+       font-weight: 400;
+       text-transform: uppercase;
+       font-size: 13px;
+       margin-left: 120px;
+       
+   }
+   .instagram .mi {
+       text-decoration: underline;
+       font-size: 15px;
+       margin-left: 1000px;
+       
+   }
+   .container-instagramm  .photo{
+       display: grid;
+       width: 100%; 
+       grid-template-columns: 1fr ;
+       grid-template-rows: 100px;
+       
+   }
+   .container-instagramm  .photo .one{
+       width: 100px;
+       height: 120px;
+       background: url(../img/14.jpg) no-repeat center center;
+       background-size: cover;
+       margin-left: 70px;
+       margin-top: -30px;
+   }
+   .container-instagramm  .photo .two{
+    width: 100px;
+    height: 120px;
+    background: url(../img/15.jpg) no-repeat center center;
+    background-size: cover;
+    margin-left: 70px;
+    margin-top: 10px;
+    
+   }
+   .container-instagramm  .photo .three{
+       
+    width: 100px;
+    height: 120px;
+    background: url(../img/16.jpg) no-repeat center center;
+    background-size: cover;
+    margin-left: 320px;
+    margin-top: -260px;
+    
+   }
+   .container-instagramm .photo .four{
+       
+    width: 100px;
+    height: 150px;
+    background: url(../img/17.jpg) no-repeat center center;
+    background-size: cover;
+    margin-left: 200px;
+    margin-top: -200px;
+    
+    
+   }
+   .container-instagramm  .photo .five{
+       
+    width: 100px;
+    height: 120px;
+    background: url(../img/18.jpg) no-repeat center center;
+    background-size: cover;
+    margin-left: 320px;
+    margin-top: -120px;
+    
+   }
+   .instagram .container-instagramm{
+       margin: 10px;
+       width: 1024px;
+       height: 120px;
+       display: flex;
+       justify-content: space-between;
+       margin-left: 45px;
+   }
+   .instagram .inst .img-inst{
+    width: 27px;
+    height: 27px;
+    
+}
+   .registration .container-registration  .text h2{
+       font-size: 40px;
+       font-family:  "Cormorant Infant";
+       font-style: italic;
+       color: #756b62;
+       line-height: 30px;
+       margin-left: 60px;
+       margin-top: 300px;
+       width: 650px;
+   }
+   
+   .container-registration{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: -100px;
+}
+   .registration .container-registration  .text p{
+       font-size: 20px;
+       font-family:  "Cormorant Infant";
+       font-style: italic;
+       color: #988f87;
+       margin-left: 10px;
+       width: 600px;
+    
+       
+   }
+   .registration .knopka {
+       display: flex;
+       gap: 5px;
+       color: rgba(97, 82, 72, 0.979);
+       margin-left: 80px;
+   }
+   .registration .soglasie label{
+       font-size: 15px;
+       margin-left: 10px;
+   }
+   .registration .soglasie{
+       margin-left: 90px;
+   }
+   
+   .registration .in .name .,name{
+    font-size: 10px;
+    background-color: rgba(245, 245, 220, 0);
+    color: rgba(97, 82, 72, 0.979);
+    border-bottom: solid 1px;
+    height: 100px;
+    width: 100px;
+   }
+   .registration .container-registration  .in{
+    display: flex;
+    flex-direction: column;
+    margin-left: -780px;
+}
+
+.registration .container-registration .in .knopka{
+    display: flex;
+    
+}
+.registration .container-registration  .in .knopka h2{
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #988f87;
+    margin-right: 15px;
+}
+   .registration  button {
+       font-family: "Montserrat";
+       color: rgba(97, 82, 72, 0.979);
+       font-size: 15px;
+       border: 1.5px solid rgba(97, 82, 72, 0.979);
+       padding: 11px;
+       width: 110px;
+       height: 90px;
+       border-radius: 20px;
+       display: flex;
+       justify-content: center;
+       position: relative;
+       
+   }
+   .contacts .block1 .mimilo1{
+    font-size: 20px;
+    color: #f1e9de;
+    font-family: "Cormorant Infant";
+    margin-bottom: 0px;
+    margin-left: 100px;
+}
+.contacts .block1 .nat{
+    font-size: 17px;
+    font-family: "Cormorant Infant";
+    font-weight: 500;
+    color: #9f968e;
+    margin-bottom: 45px;
+    margin-left: 100px;
+}
+
+.contacts .block1 .date{
+    font-size: 15px;
+    color: #9f968e;
+    font-family: "Montserrat";
+    margin-left: 100px;
+}
+.contacts .cell .block2 .adress{
+    font-size: 15px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: #9f968e;
+    margin-left: -250px;
+}
+.contacts .cell .block2{
+    margin-top: 60px;
+}
+.contacts .cell .block3{
+    display: flex;
+    align-items: center;
+}
+.contacts .cell .block3 img{
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+.contacts{
+    background: url(../img/20.jpg)no-repeat center center;
+    background-size: cover;
+    width: 1000px;
+    height: 310px;
+}
+}
+
+
+
